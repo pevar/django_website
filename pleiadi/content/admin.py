@@ -1,4 +1,4 @@
-#from django.contrib import admin
+from django.contrib import admin
 #from pleiadi.seo.admin import SeoAdminModel
 #
 #
@@ -17,3 +17,6 @@
 #
 #    search_fields = ('title', 'description', 'abstract')
 #    list_display = ('title', 'image', 'abstract')
+
+class BaseContentAdmin(admin.ModelAdmin):
+    prepopulated_fields = ()

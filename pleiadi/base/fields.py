@@ -29,9 +29,11 @@ class AutoSlugField(models.SlugField):
         # blank_unique
         if self.blank_unique and value not in self.empty_values:
             model = type(model_instance)
-
             unique_lookup = self.get_validator_unique_lookup_type()
-            exist = model.objects.filter(**{unique_lookup: value}).count()
+            unique_check = model.objects.filter(**{unique_lookup: value})
+            if model_instance.pk:
+                unique_check = unique_check.exclude(pk=model_instance.pk)
+            exist = unique_check.count()
 
             if exist:
                 raise exceptions.ValidationError(self.error_messages['unique'],

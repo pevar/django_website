@@ -22,7 +22,7 @@ class NewsAdminForm(forms.ModelForm):
 
 
 class NewsAdmin(TranslationAdmin):
-    form = NewsAdminForm
+    #form = NewsAdminForm
     fieldsets = [
         ('SEO', {
             'fields': ('seo_title', 'seo_description', 'seo_keywords',),
