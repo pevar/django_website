@@ -1,22 +1,30 @@
-from django.contrib import admin
-#from pleiadi.seo.admin import SeoAdminModel
-#
-#
-#class BaseContentAdminClass(SeoAdminModel):
-#    def get_fieldsets(self, request, obj=None):
-#        fieldsets = super(BaseContentAdminClass, self).get_fieldsets(request, obj)
-#        fieldsets += [
-#            (None, {
-#                'fields': ('title', 'slug', 'description', 'abstract')
-#            }),
-#            ('Media', {
-#                'fields': ('image',)
-#            })
-#        ]
-#        return fieldsets
-#
-#    search_fields = ('title', 'description', 'abstract')
-#    list_display = ('title', 'image', 'abstract')
+from modeltranslation.admin import TranslationAdmin
 
-class BaseContentAdmin(admin.ModelAdmin):
-    prepopulated_fields = ()
+
+class BaseContentAdmin(TranslationAdmin):
+    # TODO: seo fieldset should be handled by a SeoAdmin mixin
+    fieldsets = [
+        ('SEO', {
+            'fields': ('seo_title', 'seo_description', 'seo_keywords',),
+            'classes': ('collapse',),
+        }),
+        (None, {
+            'fields': ('title', 'slug', 'description', 'abstract')
+        }),
+        ('Media', {
+            'fields': ('image',)
+        })
+    ]
+    prepopulated_fields = {'slug': ('title',)}
+
+    class Media(object):
+        js = (
+            'modeltranslation/js/force_jquery.js',
+            'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js',
+            'modeltranslation/js/tabbed_translation_fields.js',
+        )
+        css = {
+            'screen': (
+                'modeltranslation/css/tabbed_translation_fields.css',
+            ),
+        }
