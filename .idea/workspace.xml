@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pleiadi/content/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pleiadi/seo/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/base/fields.py" afterPath="$PROJECT_DIR$/pleiadi/base/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/models.py" afterPath="$PROJECT_DIR$/news/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/base/models.py" afterPath="$PROJECT_DIR$/pleiadi/base/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/content/models.py" afterPath="$PROJECT_DIR$/pleiadi/content/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/seo/models.py" afterPath="$PROJECT_DIR$/pleiadi/seo/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/templates/news/news_detail.html" afterPath="$PROJECT_DIR$/news/templates/news/news_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/views.py" afterPath="$PROJECT_DIR$/news/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django_website.iws" />
@@ -46,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pleiadi/content/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.055900622" vertical-offset="18" max-vertical-offset="828">
+            <state line="3" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pleiadi/seo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="756">
+            <state line="4" column="36" selection-start="123" selection-end="123" vertical-scroll-proportion="0.111801244" vertical-offset="0" max-vertical-offset="774">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -158,13 +150,13 @@
         <option value="$PROJECT_DIR$/pleiadi/content/admin.py" />
         <option value="$PROJECT_DIR$/news/models.py" />
         <option value="$PROJECT_DIR$/pleiadi/base/models.py" />
-        <option value="$PROJECT_DIR$/pleiadi/seo/models.py" />
         <option value="$PROJECT_DIR$/pleiadi/base/fields.py" />
         <option value="$PROJECT_DIR$/pleiadi/content/views.py" />
         <option value="$PROJECT_DIR$/news/templates/news/news_detail.html" />
         <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/pleiadi/seo/views.py" />
         <option value="$PROJECT_DIR$/pleiadi/content/models.py" />
+        <option value="$PROJECT_DIR$/pleiadi/seo/models.py" />
       </list>
     </option>
   </component>
@@ -248,60 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="seo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pleiadi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -618,7 +556,11 @@
       <created>1393931096536</created>
       <updated>1393931096536</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Got pleiadi.content working with seo fields">
+      <created>1393934223522</created>
+      <updated>1393934223522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -654,14 +596,15 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Improving AutoSlugField unique policy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving AutoSlugField unique policy" />
+    <MESSAGE value="Got pleiadi.content working with seo fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got pleiadi.content working with seo fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/pleiadi/seo/models.py</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
@@ -774,19 +717,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pleiadi/seo/models.py">
+    <entry file="file://$PROJECT_DIR$/pleiadi/content/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="756">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state line="3" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="828">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pleiadi/content/models.py">
+    <entry file="file://$PROJECT_DIR$/pleiadi/seo/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.055900622" vertical-offset="18" max-vertical-offset="828">
-          <folding />
+        <state line="4" column="36" selection-start="123" selection-end="123" vertical-scroll-proportion="0.111801244" vertical-offset="0" max-vertical-offset="774">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

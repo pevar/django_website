@@ -2,6 +2,7 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 
+# TODO: why can't extend object?????
 class SeoMixin(models.Model):
     """
     Implementing seo features for all the extending models
