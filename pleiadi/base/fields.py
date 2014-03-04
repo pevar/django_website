@@ -41,6 +41,4 @@ class AutoSlugField(models.SlugField):
                                                      'field_label': self.name
                                                  })
 
-
-
 add_introspection_rules([], ["^pleiadi\.base\.fields\.AutoSlugField"])
