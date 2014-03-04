@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/base/fields.py" afterPath="$PROJECT_DIR$/pleiadi/base/fields.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django_website.iws" />
@@ -495,7 +494,11 @@
       <created>1393925590450</created>
       <updated>1393925590450</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Improving AutoSlugField unique policy">
+      <created>1393929981349</created>
+      <updated>1393929981349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
