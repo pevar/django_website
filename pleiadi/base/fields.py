@@ -13,7 +13,17 @@ add_introspection_rules([], ["^pleiadi\.base\.fields\.HtmlTextField"])
 
 class AutoSlugField(models.SlugField):
     """
-    Simple wrap of a standard SlugField used to implement populate_from policy
+    Simple wrap of a standard SlugField
+
+    blank=True, unique=False, blank_unique=True
+    This configuration allow you to save model instances with a blank slug (blank=True, unique=False) but not more than
+    one instance with the same slug (blank_unique=True).
+
+    Every validation over the field is applied to the localized version of the field.
+
+    Eg:
+    title_en -> populate -> slug_en
+    the blank_unique check is made over the slug_en field values
     """
     populate_from = ''
     blank_unique = True

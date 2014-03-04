@@ -6,5 +6,5 @@ class BaseModel(models.Model):
     Pleiadi base model
     """
 
-    class Meta():
+    class Meta:
         abstract = True
