@@ -11,6 +11,19 @@ class Migration(SchemaMigration):
         # Adding model 'News'
         db.create_table(u'news_news', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('title', self.gf('django.db.models.fields.CharField')(max_length=200)),
+            ('title_en', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True)),
+            ('title_it', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True)),
+            ('slug', self.gf('pleiadi.base.fields.AutoSlugField')(max_length=50, blank=True)),
+            ('slug_en', self.gf('pleiadi.base.fields.AutoSlugField')(max_length=50, null=True, blank=True)),
+            ('slug_it', self.gf('pleiadi.base.fields.AutoSlugField')(max_length=50, null=True, blank=True)),
+            ('image', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['filer.Image'], null=True, blank=True)),
+            ('description', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
+            ('description_en', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
+            ('description_it', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
+            ('abstract', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
+            ('abstract_en', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
+            ('abstract_it', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
             ('seo_title', self.gf('django.db.models.fields.CharField')(max_length=250, null=True, blank=True)),
             ('seo_title_en', self.gf('django.db.models.fields.CharField')(max_length=250, null=True, blank=True)),
             ('seo_title_it', self.gf('django.db.models.fields.CharField')(max_length=250, null=True, blank=True)),
@@ -20,19 +33,6 @@ class Migration(SchemaMigration):
             ('seo_keywords', self.gf('django.db.models.fields.CharField')(max_length=400, null=True, blank=True)),
             ('seo_keywords_en', self.gf('django.db.models.fields.CharField')(max_length=400, null=True, blank=True)),
             ('seo_keywords_it', self.gf('django.db.models.fields.CharField')(max_length=400, null=True, blank=True)),
-            ('title', self.gf('django.db.models.fields.CharField')(max_length=200)),
-            ('title_en', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True)),
-            ('title_it', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True)),
-            ('slug', self.gf('autoslug.fields.AutoSlugField')(max_length=50, unique_with=(), null=True, populate_from='title', blank=True)),
-            ('slug_en', self.gf('autoslug.fields.AutoSlugField')(max_length=50, null=True, blank=True)),
-            ('slug_it', self.gf('autoslug.fields.AutoSlugField')(max_length=50, null=True, blank=True)),
-            ('image', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['filer.Image'], null=True, blank=True)),
-            ('description', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
-            ('description_en', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
-            ('description_it', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
-            ('abstract', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
-            ('abstract_en', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
-            ('abstract_it', self.gf('pleiadi.base.fields.HtmlTextField')(null=True, blank=True)),
         ))
         db.send_create_signal(u'news', ['News'])
 
@@ -124,7 +124,7 @@ class Migration(SchemaMigration):
             'subject_location': ('django.db.models.fields.CharField', [], {'default': 'None', 'max_length': '64', 'null': 'True', 'blank': 'True'})
         },
         u'news.news': {
-            'Meta': {'ordering': "['title']", 'object_name': 'News'},
+            'Meta': {'object_name': 'News'},
             'abstract': ('pleiadi.base.fields.HtmlTextField', [], {'null': 'True', 'blank': 'True'}),
             'abstract_en': ('pleiadi.base.fields.HtmlTextField', [], {'null': 'True', 'blank': 'True'}),
             'abstract_it': ('pleiadi.base.fields.HtmlTextField', [], {'null': 'True', 'blank': 'True'}),
@@ -142,9 +142,9 @@ class Migration(SchemaMigration):
             'seo_title': ('django.db.models.fields.CharField', [], {'max_length': '250', 'null': 'True', 'blank': 'True'}),
             'seo_title_en': ('django.db.models.fields.CharField', [], {'max_length': '250', 'null': 'True', 'blank': 'True'}),
             'seo_title_it': ('django.db.models.fields.CharField', [], {'max_length': '250', 'null': 'True', 'blank': 'True'}),
-            'slug': ('autoslug.fields.AutoSlugField', [], {'max_length': '50', 'unique_with': '()', 'null': 'True', 'populate_from': "'title'", 'blank': 'True'}),
-            'slug_en': ('autoslug.fields.AutoSlugField', [], {'max_length': '50', 'null': 'True', 'blank': 'True'}),
-            'slug_it': ('autoslug.fields.AutoSlugField', [], {'max_length': '50', 'null': 'True', 'blank': 'True'}),
+            'slug': ('pleiadi.base.fields.AutoSlugField', [], {'max_length': '50', 'blank': 'True'}),
+            'slug_en': ('pleiadi.base.fields.AutoSlugField', [], {'max_length': '50', 'null': 'True', 'blank': 'True'}),
+            'slug_it': ('pleiadi.base.fields.AutoSlugField', [], {'max_length': '50', 'null': 'True', 'blank': 'True'}),
             'title': ('django.db.models.fields.CharField', [], {'max_length': '200'}),
             'title_en': ('django.db.models.fields.CharField', [], {'max_length': '200', 'null': 'True', 'blank': 'True'}),
             'title_it': ('django.db.models.fields.CharField', [], {'max_length': '200', 'null': 'True', 'blank': 'True'})
