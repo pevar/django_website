@@ -11,6 +11,9 @@ class BaseContentAdmin(TranslationAdmin):
         (None, {
             'fields': ('title', 'slug', 'description', 'abstract')
         }),
+        ('Visibility', {
+            'fields': ('active', 'visible')
+        }),
         ('Media', {
             'fields': ('image',)
         })
