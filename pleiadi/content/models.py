@@ -37,7 +37,6 @@ class BaseContent(SeoMixin, BaseModel):
                                  default=False)
     visible = models.BooleanField(_('visible'), help_text=_('handle content visibility for current language'),
                                   default=False)
-
     sites = models.ManyToManyField(Site, null=True, blank=True, related_name="%(app_label)s_%(class)s_related")
 
     objects = models.Manager()
