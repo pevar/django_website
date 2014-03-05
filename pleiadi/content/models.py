@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.contrib.sites.managers import CurrentSiteManager
 from django.contrib.sites.models import Site
 
@@ -33,11 +34,21 @@ class BaseContent(SeoMixin, BaseModel):
                                 help_text=_('Main textual description of your content'))
     abstract = HtmlTextField(_('description'), blank=True, null=True,
                              help_text=_('Short textual description of your content'))
-    active = models.BooleanField(_('active'), help_text=_('inactive content isn\'t visible online in every language'),
+    active = models.BooleanField(_('Global visibility'),
+                                 help_text=_('Make this content visible according to Site and Language visibility'),
                                  default=False)
-    visible = models.BooleanField(_('visible'), help_text=_('handle content visibility for current language'),
+    visible = models.BooleanField(_('Language visibility'), help_text=_('Make this content visible for this language'),
                                   default=False)
-    sites = models.ManyToManyField(Site, null=True, blank=True, related_name="%(app_label)s_%(class)s_related")
+    sites = models.ManyToManyField(Site, verbose_name=_('Site visibility'), null=True, blank=True,
+                                   related_name="%(app_label)s_%(class)s_related",
+                                   help_text=_('Make this content visible for selected sites '
+                                               'according to Global and Language visibility'))
+
+    created_by = models.ForeignKey(User, related_name="%(app_label)s_%(class)s_owner_related")
+    changed_by = models.ForeignKey(User, related_name="%(app_label)s_%(class)s_changed_by_related")
+    creation_date = models.DateTimeField(auto_now_add=True)
+    changed_date = models.DateTimeField(auto_now=True)
+
 
     objects = models.Manager()
     visible_on_site = VisibleManager()
