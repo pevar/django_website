@@ -1,14 +1,10 @@
-from django.views.generic.list import ListView
-from pleiadi.content.views import BaseDetailView
+from pleiadi.content.views import BaseContentListView, BaseContentDetailView
 from news.models import News
 
 
-class NewsList(ListView):
+class NewsList(BaseContentListView):
     model = News
-    queryset = News.visible_on_site.all()
 
 
-class NewsDetail(BaseDetailView):
+class NewsDetail(BaseContentDetailView):
     model = News
-    queryset = News.visible_on_site.all()
-
