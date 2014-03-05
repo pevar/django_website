@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="Base">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/views.py" afterPath="$PROJECT_DIR$/news/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/content/views.py" afterPath="$PROJECT_DIR$/pleiadi/content/views.py" />
+    <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django_website.iws" />
@@ -83,12 +81,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0647482" vertical-offset="0" max-vertical-offset="556">
+            <state line="10" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
               <folding>
                 <element signature="e#0#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="23" selection-start="301" selection-end="301" vertical-scroll-proportion="0.4208633" vertical-offset="0" max-vertical-offset="556">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pleiadi/seo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="33" selection-start="564" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <folding>
+                <element signature="e#120#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +135,6 @@
         <option value="$PROJECT_DIR$/pleiadi/base/fields.py" />
         <option value="$PROJECT_DIR$/news/templates/news/news_detail.html" />
         <option value="$PROJECT_DIR$/pleiadi/seo/views.py" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/pleiadi/seo/settings.py" />
         <option value="$PROJECT_DIR$/pleiadi/seo/models.py" />
         <option value="$PROJECT_DIR$/pleiadi/seo/translation.py" />
@@ -128,6 +145,7 @@
         <option value="$PROJECT_DIR$/pleiadi/content/admin.py" />
         <option value="$PROJECT_DIR$/pleiadi/content/views.py" />
         <option value="$PROJECT_DIR$/news/views.py" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -210,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="seo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,12 +583,20 @@
       <created>1394038451593</created>
       <updated>1394038451593</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Base Content Views">
+      <created>1394038864008</created>
+      <updated>1394038864008</updated>
+    </task>
+    <task id="LOCAL-00017" summary="README.txt updated">
+      <created>1394039308634</created>
+      <updated>1394039308634</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1597" y="150" width="1686" height="1027" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -579,7 +605,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560587" sideWeight="0.66401815" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560587" sideWeight="0.66401815" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20885357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -605,7 +631,9 @@
     <MESSAGE value="Added pleiadi.seo settings SEO_MULTILINGUAL_DEFAULT_LANGUAGE with default value" />
     <MESSAGE value="visible_on_site manager added to BaseContent" />
     <MESSAGE value="user and dates added to BaseContent" />
-    <option name="LAST_COMMIT_MESSAGE" value="user and dates added to BaseContent" />
+    <MESSAGE value="Base Content Views" />
+    <MESSAGE value="README.txt updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.txt updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -623,24 +651,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pleiadi/base/fields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="440" selection-end="440" vertical-scroll-proportion="0.4820144" vertical-offset="2" max-vertical-offset="1098">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pleiadi/seo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="452" selection-end="452" vertical-scroll-proportion="0.40601504" vertical-offset="0" max-vertical-offset="532">
-          <folding>
-            <element signature="e#120#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="10" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3096">
@@ -744,10 +754,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0647482" vertical-offset="0" max-vertical-offset="556">
+        <state line="10" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
           <folding>
             <element signature="e#0#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pleiadi/seo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="564" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding>
+            <element signature="e#120#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="301" selection-end="301" vertical-scroll-proportion="0.4208633" vertical-offset="0" max-vertical-offset="556">
+          <folding />
         </state>
       </provider>
     </entry>
