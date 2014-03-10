@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/base/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/content/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/content/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/base/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/libs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/base/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/content/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/content/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/content/translation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/translation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/content/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/pleiadi/seo/views.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../libs/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/base/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/base/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/base/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/content/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/content/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/content/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/content/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/content/translation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/content/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/translation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pleiadi/seo/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/django_website.iml" afterPath="$PROJECT_DIR$/.idea/django_website.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django_website.iws" />
@@ -193,64 +150,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pleiadi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pleiadi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pleiadi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pleiadi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,13 +527,18 @@
       <created>1394039331864</created>
       <updated>1394039331864</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pleiadi app moved in libs">
+      <created>1394462206580</created>
+      <updated>1394462206580</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1597" y="150" width="1686" height="1027" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -643,14 +547,13 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2722833" sideWeight="0.66401815" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20885357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33636364" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33636364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -675,7 +578,8 @@
     <MESSAGE value="user and dates added to BaseContent" />
     <MESSAGE value="Base Content Views" />
     <MESSAGE value="README.txt updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.txt updated" />
+    <MESSAGE value="pleiadi app moved in libs" />
+    <option name="LAST_COMMIT_MESSAGE" value="pleiadi app moved in libs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
