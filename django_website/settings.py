@@ -16,14 +16,22 @@ MANAGERS = ADMINS
 # localhost as developer machine
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_website',
-        'USER': 'studiopleiadi',
-        'PASSWORD': '7hyt5e10912udbxc42828fy19',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'C:\Users\pevar\Desktop\django\develop\django_website\project\django_website\db.sqlite3',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'PORT': '',
-        'OPTIONS': {'init_command': 'SET storage_engine=MyISAM;'}
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': 'django_website',
+    #     'USER': 'studiopleiadi',
+    #     'PASSWORD': '7hyt5e10912udbxc42828fy19',
+    #     'HOST': 'localhost',
+    #     'PORT': '',
+    #     'OPTIONS': {'init_command': 'SET storage_engine=MyISAM;'}
+    # }
 }
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
@@ -132,6 +140,7 @@ INSTALLED_APPS = (
     'south',
     'filer',
     'news',
+    'business_unit',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

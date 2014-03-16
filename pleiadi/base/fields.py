@@ -30,8 +30,11 @@ class AutoSlugField(models.SlugField):
 
     def __init__(self, *args, **kwargs):
         self.populate_from = kwargs.pop('populate_from', '')
-        self.blank_unique = kwargs.pop('blank_unique', '')
+        self.blank_unique = kwargs.pop('blank_unique', True)
+        kwargs['blank'] = kwargs.get('blank', True)
+        kwargs['unique'] = kwargs.get('unique', False)
         super(AutoSlugField, self).__init__(*args, **kwargs)
+
 
     def validate(self, value, model_instance):
         super(AutoSlugField, self).validate(value, model_instance)
