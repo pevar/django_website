@@ -25,16 +25,14 @@ class AutoSlugField(models.SlugField):
     title_en -> populate -> slug_en
     the blank_unique check is made over the slug_en field values
     """
-    populate_from = ''
     blank_unique = True
+    empty_values = ['']
 
     def __init__(self, *args, **kwargs):
-        self.populate_from = kwargs.pop('populate_from', '')
         self.blank_unique = kwargs.pop('blank_unique', True)
         kwargs['blank'] = kwargs.get('blank', True)
         kwargs['unique'] = kwargs.get('unique', False)
         super(AutoSlugField, self).__init__(*args, **kwargs)
-
 
     def validate(self, value, model_instance):
         super(AutoSlugField, self).validate(value, model_instance)
