@@ -1,6 +1,7 @@
 from django.db import models
 from django.core import exceptions
 from south.modelsinspector import add_introspection_rules
+from django.utils.translation import ugettext_lazy as _
 
 
 class HtmlTextField(models.TextField):
@@ -32,6 +33,8 @@ class AutoSlugField(models.SlugField):
         self.blank_unique = kwargs.pop('blank_unique', True)
         kwargs['blank'] = kwargs.get('blank', True)
         kwargs['unique'] = kwargs.get('unique', False)
+        kwargs['help_text'] = kwargs.get('help_text', _("The item slice of the URL, based on name for SEO<br />"
+                                                        "Clear the text if you want to reset."))
         super(AutoSlugField, self).__init__(*args, **kwargs)
 
     def validate(self, value, model_instance):

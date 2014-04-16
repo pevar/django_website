@@ -4,9 +4,7 @@
     <data-source source="LOCAL" name="Django default" uuid="57913aa8-421f-401b-8b8d-94ce8081c7f0">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/django_website</jdbc-url>
-      <user-name>studiopleiadi</user-name>
-      <user-password>df9ddfc2dfd3dfdedf9fdfcfdf9bdf9adf93df9bdf98dfdfdfcedfc8dfd2dfc9df9edf98df92df98df92dfccdfd3df9bdf93</user-password>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.PyCharm30/config/jdbc-drivers/mysql-connector-license.txt</url>

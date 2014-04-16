@@ -26,7 +26,7 @@ class BaseContent(SeoMixin, BaseModel):
     """
     title = models.CharField(_('title'), max_length=200, blank=False, null=False,
                              help_text=_('Title of your content'))
-    slug = AutoSlugField(_('slug'), editable=True, populate_from='title')
+    slug = AutoSlugField()
     image = FilerImageField(blank=True, null=True,
                             help_text=_('Main image of your content'))
     description = HtmlTextField(_('description'), blank=True, null=True,
