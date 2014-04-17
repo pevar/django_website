@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/content/admin.py" afterPath="$PROJECT_DIR$/pleiadi/content/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django_website.iws" />
@@ -597,7 +596,11 @@
       <created>1397736743171</created>
       <updated>1397736743172</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="widget update for HtmlTextField">
+      <created>1397737263983</created>
+      <updated>1397737263983</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
