@@ -1,14 +1,23 @@
 from django.db import models
 from django.core import exceptions
+from django.forms.widgets import Textarea
 from south.modelsinspector import add_introspection_rules
 from django.utils.translation import ugettext_lazy as _
 
 
+class HtmlTextEditorWidget(Textarea):
+    def __init__(self, attrs=None):
+        # The 'rows' and 'cols' attributes are required for HTML correctness.
+        default_attrs = {'class': 'htmltext'}
+        if attrs:
+            default_attrs.update(attrs)
+        super(HtmlTextEditorWidget, self).__init__(default_attrs)
+
+
 class HtmlTextField(models.TextField):
-    """
-    Simple wrap of a standard TextField stores HtmlContent's specific information and method
-    """
-    pass
+    def formfield(self, **kwargs):
+        defaults = {'widget': HtmlTextEditorWidget}
+        return super(HtmlTextField, self).formfield(**defaults)
 add_introspection_rules([], ["^pleiadi\.base\.fields\.HtmlTextField"])
 
 

@@ -1,0 +1,12 @@
+.mce-container, .mce-container *, .mce-widget, .mce-widget * {
+    font-size: 12px !important;
+}
+
+.mce-btn button {
+    line-height: 16px !important;
+    padding: 4px 6px !important;
+}
+
+.mce-tinymce {
+    float: left !important;
+}
