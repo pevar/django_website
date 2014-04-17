@@ -42,6 +42,7 @@ class BaseContentAdmin(TranslationAdmin):
         )
         css = {
             'screen': (
+                'core/tinymce/js/tinymce/django.tinymce.css',
                 'modeltranslation/css/tabbed_translation_fields.css',
             ),
         }

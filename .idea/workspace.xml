@@ -2,96 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a31cd53-3315-4431-809c-4039902255d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/LICENSE.TXT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/django.tinymce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/compat3x/editable_selects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/compat3x/form_utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/htmltext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/jquery.tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/compat3x/mctabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/code/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/example/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/hr/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/image/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/layer/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/link/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/lists/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/media/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/paste/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/preview/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/print/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/save/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/table/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/template/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/langs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/fonts/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/skin.classic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/skins/lightgray/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/themes/modern/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/compat3x/tiny_mce_popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/compat3x/validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/content/admin.py" afterPath="$PROJECT_DIR$/pleiadi/content/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pleiadi/base/fields.py" afterPath="$PROJECT_DIR$/pleiadi/base/fields.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_website/urls.py" afterPath="$PROJECT_DIR$/django_website/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="django_website.iws" />
@@ -117,100 +28,7 @@
     <favorites_list name="django_website" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django_website/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="22" selection-start="4732" selection-end="4732" vertical-scroll-proportion="0.0" vertical-offset="2106" max-vertical-offset="4176">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="htmltext.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/htmltext.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="32" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pleiadi/content/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1512">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fields.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/forms/fields.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="0" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.0" vertical-offset="1298" max-vertical-offset="18306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/fields/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1198" column="45" selection-start="44667" selection-end="44667" vertical-scroll-proportion="0.33229813" vertical-offset="20936" max-vertical-offset="22860">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fields.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/modeltranslation/fields.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="0" selection-start="8247" selection-end="8247" vertical-scroll-proportion="0.0" vertical-offset="3152" max-vertical-offset="6390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="widgets.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../env/local/lib/python2.7/site-packages/django/forms/widgets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="400" column="53" selection-start="14378" selection-end="14652" vertical-scroll-proportion="0.0" vertical-offset="6806" max-vertical-offset="16506">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/static/core/tinymce/js/tinymce/langs/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pleiadi/base/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -775,19 +593,24 @@
       <created>1397655820861</created>
       <updated>1397655820861</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="widget update for HtmlTextField">
+      <created>1397736743171</created>
+      <updated>1397736743172</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1597" y="0" width="1686" height="1027" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961673" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14224665" sideWeight="0.7962648" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14224665" sideWeight="0.7962648" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20795454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14153132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -797,7 +620,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -825,22 +647,11 @@
     <MESSAGE value="pleiadi app moved in libs" />
     <MESSAGE value="AutoSlugField with a correct attributed default logic" />
     <MESSAGE value="fixed AutoSlugField defaults" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed AutoSlugField defaults" />
+    <MESSAGE value="widget update for HtmlTextField" />
+    <option name="LAST_COMMIT_MESSAGE" value="widget update for HtmlTextField" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/pleiadi/seo/models.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/../../env/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py</url>
-          <line>1198</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1107,14 +918,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/modeltranslation/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="0" selection-start="8247" selection-end="8247" vertical-scroll-proportion="0.0" vertical-offset="3152" max-vertical-offset="6390">
+        <state line="194" column="0" selection-start="8247" selection-end="8247" vertical-scroll-proportion="0.3203593" vertical-offset="3152" max-vertical-offset="6390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../env/local/lib/python2.7/site-packages/django/forms/widgets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="400" column="53" selection-start="14378" selection-end="14652" vertical-scroll-proportion="0.0" vertical-offset="6806" max-vertical-offset="16506">
+        <state line="400" column="53" selection-start="14378" selection-end="14652" vertical-scroll-proportion="0.48203593" vertical-offset="6806" max-vertical-offset="16506">
           <folding />
         </state>
       </provider>
@@ -1122,13 +933,6 @@
     <entry file="file://$PROJECT_DIR$/../../env/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1197" column="8" selection-start="44595" selection-end="44595" vertical-scroll-proportion="0.33229813" vertical-offset="20918" max-vertical-offset="22860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/forms/fields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.0" vertical-offset="1298" max-vertical-offset="18306">
           <folding />
         </state>
       </provider>
@@ -1156,26 +960,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/admin.py">
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/forms/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pleiadi/content/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1512">
+        <state line="89" column="0" selection-start="4046" selection-end="4046" vertical-scroll-proportion="0.33229813" vertical-offset="1298" max-vertical-offset="18306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1198" column="45" selection-start="44667" selection-end="44667" vertical-scroll-proportion="0.33229813" vertical-offset="20936" max-vertical-offset="22860">
+        <state line="1198" column="0" selection-start="44622" selection-end="44622" vertical-scroll-proportion="0.33233532" vertical-offset="20928" max-vertical-offset="22860">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pleiadi/content/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="10" selection-start="915" selection-end="915" vertical-scroll-proportion="0.4311377" vertical-offset="162" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="137" selection-end="137" vertical-scroll-proportion="0.13473053" vertical-offset="0" max-vertical-offset="668">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
