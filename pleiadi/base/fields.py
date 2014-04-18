@@ -6,8 +6,10 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class HtmlTextEditorWidget(Textarea):
+    """
+    Used to add HtmlText specific attribute to the Textarea widget
+    """
     def __init__(self, attrs=None):
-        # The 'rows' and 'cols' attributes are required for HTML correctness.
         default_attrs = {'class': 'htmltext'}
         if attrs:
             default_attrs.update(attrs)

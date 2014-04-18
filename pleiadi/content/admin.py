@@ -1,11 +1,15 @@
 from django.contrib.sites.models import Site
 from django import forms
 from django.core.exceptions import ObjectDoesNotExist
-from modeltranslation.admin import TranslationAdmin
+from modeltranslation.admin import TranslationAdmin, TabbedExternalJqueryTranslationAdmin
 from django.utils.translation import ugettext_lazy as _
+from pleiadi.base.fields import HtmlTextField, HtmlTextEditorWidget
 
 
-class BaseContentAdmin(TranslationAdmin):
+class BaseContentAdmin(TabbedExternalJqueryTranslationAdmin):
+    # formfield_overrides = {
+    #     HtmlTextField: {'widget': HtmlTextEditorWidget},
+    # }
     # TODO: seo fieldset should be handled by a SeoAdmin mixin
     fieldsets = [
         ('SEO', {
