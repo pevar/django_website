@@ -17,13 +17,15 @@ class SeoMixin(models.Model):
     def seo_fallback_fields(self):
         """
         Return a dict of field used as seo fallback fields.
-        Override this method to supply your model specific fallback fields.
-        """
+        You must override this method to supply your model specific fallback fields.
+        
         return {
-            'seo_title': self.seo_title,
-            'seo_description': self.seo_description,
-            'seo_keywords': self.seo_keywords,
+            'seo_title': self.title,
+            'seo_description': self.description,
+            'seo_keywords': self.seo_keywords,  # deprecated not used anymore in SEO
         }
+        """
+        raise NotImplementedError
 
     def seo(self):
         """
